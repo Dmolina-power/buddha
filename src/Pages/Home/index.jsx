@@ -3,28 +3,32 @@ import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
 import Carousel from "../../Components/Carousel";
 import Card from "../../Components/Card";
+import Sidebar from "../../Components/Sidebar";
 
 //style
 import "./style.css";
 
 function Home() {
-  return (
-    <>
-      <Navbar />
-      <div className="container">
-        <div className="row">
-          <Carousel />
-          <Card />
-        </div>
-        <div className="col">
+    return (
+        <React.Fragment>
+            <Navbar />
+            
+            <Sidebar />
+            
+            <Carousel/>
+          
+             <Footer />
+              
 
-        </div>
+</React.Fragment>
+
+
+
+
+
+
         
-         </div>
-        <Footer />
-     
-    </>
-  );
+    );
 }
 
 export default Home;

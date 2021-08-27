@@ -4,3 +4,10 @@ body,
 .App {
     height: 100vh;
 }
+
+.phantomStyle  {
+    display: "block";
+    padding: "20px";
+    height: "60px";
+    width: "100%"
+  }

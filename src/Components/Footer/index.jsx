@@ -2,14 +2,15 @@ import React from "react";
 import "./style.css";
 
 
-function Footer(){
-    return(
-        <nav class="navbar fixed-bottom navbar-dark bg-dark ">
-  <div class="container-fluid justify-content-center">
-    <a class="navbar-item text-white">Namaste 2021</a>
-  </div>
-</nav>
-    )
+function Footer() {
+  return (<>
+    <div class="phantomStyle"></div>
+    <footer class="footer  footer-dark bg-dark">
+      
+        <p class=" text-white">Namaste 2021</p>
+      
+    </footer>
+  </>)
 }
 
 
